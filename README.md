@@ -1,5 +1,5 @@
 # multithreaded-matrix-multiplication
-Parallel Dense Matrix Multiplicationü
+Parallel Dense Matrix Multiplication
 
 In this project, a study was conducted on matrix multiplication methods and their differences and the methods were compared in terms of time.
 
