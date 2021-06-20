@@ -1,7 +1,11 @@
 # multithreaded-matrix-multiplication
-Parallel Dense Matrix Multiplication
+Parallel Dense Matrix Multiplicationü
 
-It is seen that as the size of the matrix increases, loading matrix time and computing time values also increase. When matrix multiplication, matrix A and matrix B are multiplied and a C matrix is obtained. In the serial matrix multiplication algorithm, n3 multiplication and n3 addition are performed. This means that the computation time will take too long. In general, serial computing time seems to be the most time in the time taken to calculate matrices.
+In this project, a study was conducted on matrix multiplication methods and their differences and the methods were compared in terms of time.
+
+## Comparison Table and Output Results
+
+According to the results obtained, it is seen that as the size of the matrix increases, loading matrix time and computing time values also increase. When matrix multiplication, matrix A and matrix B are multiplied and a C matrix is obtained. In the serial matrix multiplication algorithm, n^3 multiplication and n^3 addition are performed. This means that the computation time will take too long. In general, serial computing time seems to be the most time in the time taken to calculate matrices.
 
 In using the cache matrix multiplication, the traditional series matrix multiplication is optimized. The transpose of the B matrix is taken. Matrix A and matrix the transpose of matrix B is multiplied. As shown in the computation time values, this method works faster than series matrix multiplication, especially as matrix size increases.
 
